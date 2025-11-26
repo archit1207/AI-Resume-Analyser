@@ -1,4 +1,4 @@
-import { resumes } from "constants/index";
+import { resumes } from "../../constants/index";
 import { useEffect } from "react";
 import { useNavigate } from "react-router";
 import type { Route } from "./+types/home";
