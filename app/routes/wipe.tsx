@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router";
 import { usePuterStore } from "~/lib/puter";
+import type { Route } from "../+types/root";
 
 export function meta({ }: Route.MetaArgs) {
     return [
